@@ -1,5 +1,8 @@
 <script setup>
+import { KeyPair } from "near-api-js";
 import HelloWorld from './components/HelloWorld.vue'
+
+console.log(KeyPair.fromRandom("ed25519"))
 </script>
 
 <template>
