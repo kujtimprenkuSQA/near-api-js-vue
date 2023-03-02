@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "buffer": "^6.0.3",
     "near-api-js": "^1.1.0",
+    "process": "^0.11.10",
     "vue": "^3.2.45"
   },
   "devDependencies": {
